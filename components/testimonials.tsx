@@ -190,17 +190,11 @@ export function Testimonials() {
               transition={{ delay: index * 0.1, duration: 0.6 }}
               className="text-center glass p-6 rounded-2xl bg-white/60 dark:bg-gray-900/60 backdrop-blur-xl border border-white/20 dark:border-gray-700/20 h-full flex flex-col justify-center"
             >
-              <motion.div
+              <div
                 className={`text-3xl lg:text-4xl font-bold ${stat.color} mb-2`}
-                animate={{ scale: [1, 1.1, 1] }}
-                transition={{
-                  duration: 2,
-                  repeat: Number.POSITIVE_INFINITY,
-                  delay: index * 0.5,
-                }}
               >
                 {stat.value}
-              </motion.div>
+              </div>
               <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">
                 {stat.label}
               </div>

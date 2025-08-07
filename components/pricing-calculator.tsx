@@ -232,7 +232,7 @@ export function PricingCalculator() {
               <div className="mt-4 text-xs text-gray-500 dark:text-gray-400">
                 {recommendedPlan() === "Enterprise"
                   ? "Custom pricing • Dedicated support • Enterprise features"
-                  : "No setup fees • Cancel anytime • 30-day free trial"}
+                  : "No setup fees • Cancel anytime • 10-day money-back guarantee"}
               </div>
             </div>
           </div>

@@ -150,17 +150,9 @@ export function Features() {
                 >
                   <stat.icon className="w-6 h-6" />
                 </motion.div>
-                <motion.div
-                  className={`text-3xl font-bold ${stat.color} mb-2`}
-                  animate={{ scale: [1, 1.05, 1] }}
-                  transition={{
-                    duration: 2,
-                    repeat: Number.POSITIVE_INFINITY,
-                    delay: index * 0.5,
-                  }}
-                >
+                <div className={`text-3xl font-bold ${stat.color} mb-2`}>
                   {stat.value}
-                </motion.div>
+                </div>
                 <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">
                   {stat.label}
                 </div>

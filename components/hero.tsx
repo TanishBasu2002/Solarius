@@ -228,17 +228,11 @@ export function Hero() {
                   transition={{ delay: 1.2 + index * 0.2, duration: 0.5 }}
                   className="text-center p-2 sm:p-4 glass rounded-xl sm:rounded-2xl bg-white/40 dark:bg-gray-900/40 backdrop-blur-xl"
                 >
-                  <motion.div
+                  <div
                     className={`text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold ${stat.color} mb-1 sm:mb-2`}
-                    animate={{ scale: [1, 1.1, 1] }}
-                    transition={{
-                      duration: 2,
-                      repeat: Number.POSITIVE_INFINITY,
-                      delay: index * 0.5,
-                    }}
                   >
                     {stat.value}
-                  </motion.div>
+                  </div>
                   <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 font-medium leading-tight break-words">
                     {stat.label}
                   </div>
