@@ -8,7 +8,6 @@ import { PageLoader } from "@/components/page-loader";
 import { Pricing } from "@/components/pricing";
 import { Testimonials } from "@/components/testimonials";
 
-
 export default function Home() {
   return (
     <>
