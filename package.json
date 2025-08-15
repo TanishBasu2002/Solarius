@@ -8,7 +8,8 @@
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "ui": "pnpm --filter @workspace/ui ui",
-    "prepare": "husky"
+    "prepare": "husky",
+    "new": "turbo gen workspace"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"

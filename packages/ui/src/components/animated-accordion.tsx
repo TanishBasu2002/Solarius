@@ -31,10 +31,10 @@ export function AnimatedAccordion({ faqs }: AnimatedAccordionProps) {
           viewport={{ once: true }}
           transition={{ delay: index * 0.1 }}
         >
-          <Card className="glass overflow-hidden">
+          <Card className="glass overflow-hidden bg-transparent shadow-lg border border-transparent hover:bg-gray-50/50 dark:hover:bg-gray-800/50 transition-colors duration-200">
             <button
               onClick={() => toggleAnimatedAccordion(index)}
-              className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50/50 dark:hover:bg-gray-800/50 transition-colors duration-200"
+              className="w-full px-6 py-4 text-left flex items-center justify-between  "
             >
               <span className="font-semibold text-lg pr-4">{faq.question}</span>
               <motion.div
